@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site do Benfica</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E60026;
+            color: #FFF;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #E60026;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Benfica</h1>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#jogadores">Jogadores</a></li>
+                <li><a href="#titulos">Títulos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Benfica</h2>
+            <p>O Benfica é um clube de futebol português com sede em Lisboa. Fundado em 1904, é um dos clubes mais populares e bem-sucedidos de Portugal.</p>
+        </section>
+
+        <section id="jogadores">
+            <h2>Jogadores</h2>
+            <ul>
+                <li>Jogador 1</li> 
+                <li>Jogador 2</li>
+                <li>Jogador 3</li>
+                <li>Jogador 4</li>
+                <li>Jogador 5</li>
+            </ul>
+        </section>
+
+        <section id="titulos">
+            <h2>Títulos</h2>
+            <ul>
+                <li>Campeonato Português: 37 vezes</li>
+                <li>Taça de Portugal: 26 vezes</li>
+                <li>Supertaça Cândido de Oliveira: 7 vezes</li>
+                <li>Liga dos Campeões da UEFA: 2 vezes</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Site do Benfica. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+
+        function showSlide() {
+            slides[currentSlide].style.display = 'none';
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].style.display = 'block';
+        }
+
+        setInterval(showSlide, 3000); // 3 segundos
+    </script>
+</body>
+</html>
