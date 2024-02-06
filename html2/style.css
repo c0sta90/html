@@ -17,3 +17,14 @@
     color: #ffcc00; /* color of the title */
     margin-bottom: 10px; /* space between the title and the content */
 }
+#main ul {
+    background: blue;
+    color: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+
+#main ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ffcc00;
+    padding-top: 5px;
+}
