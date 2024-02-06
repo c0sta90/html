@@ -1,5 +1,19 @@
 #main {
-    width: 960px; /* width of the page */
-    background: black; /* for demonstration */
+    width: 900px; /* width of the page */
+    background: black; 
+    padding: 10px 20px; /* o padding serve para compesar  */
+    padding: 10px 20px 10px 20px; /* padding for the content */
+    color: #ffffff; /* color of the text */
     margin: 0 auto; /* center the page */
+}
+
+#main .row {
+    padding: 15px; /* padding of the row */
+    border: red 3px solid; /* border of the row */
+    margin-bottom: 30px; /* space between the rows */
+}
+
+#main h2 {
+    color: #ffcc00; /* color of the title */
+    margin-bottom: 10px; /* space between the title and the content */
 }
