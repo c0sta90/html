@@ -39,6 +39,17 @@
 }
 
 #menu li a:hover {
-    background-color: #ddd;
+    background-color: #489eff4f;
+}
+
+#rodape {
+    background-color: #0050ac;
+    padding: 1px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    position:relative ;
+    bottom: 0;
+
 }
 
