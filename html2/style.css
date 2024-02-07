@@ -6,16 +6,39 @@
     align-items: center; /* centralizar o conteúdo horizontalmente */
 }
 
-#main .cursos {
-
+#main div {
+    margin: 10px; /* margem entre os elementos */
 }
 
-#main h2 {
-
+#menu {
+    display: flex; /* habilitar layout flexbox */
+    justify-content: center; /* centralizar o conteúdo horizontalmente */
+    align-items: center; /* centralizar o conteúdo verticalmente */
+    flex-direction: row; /* definir a direção dos elementos como horizontal */
+    
 }
-#main ul {
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
 
-#main ul li {
-
+#menu li {
+    float: left;
 }
+
+#menu li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #ddd;
+}
+
