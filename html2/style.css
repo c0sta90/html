@@ -1,30 +1,21 @@
 #main {
-    width: 900px; /* width of the page */
-    background: black; 
-    padding: 10px 20px; /* o padding serve para compesar  */
-    padding: 10px 20px 10px 20px; /* padding for the content */
-    color: #ffffff; /* color of the text */
-    margin: 0 auto; /* center the page */
+    margin: 0 auto; /* centralizar a página */
+    text-align: center; /* centralizar o conteúdo horizontalmente */
+    display: flex; /* habilitar layout flexbox */
+    justify-content: center; /* centralizar o conteúdo verticalmente */
+    align-items: center; /* centralizar o conteúdo horizontalmente */
 }
 
-#main .row {
-    padding: 15px; /* padding of the row */
-    border: red 3px solid; /* border of the row */
-    margin-bottom: 30px; /* space between the rows */
+#main .cursos {
+
 }
 
 #main h2 {
-    color: #ffcc00; /* color of the title */
-    margin-bottom: 10px; /* space between the title and the content */
+
 }
 #main ul {
-    background: blue;
-    color: #ffcc00;
-    border: 2px solid #ffcc00;
 }
 
 #main ul li {
-    padding: 5px;
-    border-bottom: 1px solid #ffcc00;
-    padding-top: 5px;
+
 }
