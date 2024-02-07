@@ -14,7 +14,7 @@
     display: flex; /* habilitar layout flexbox */
     justify-content: center; /* centralizar o conteúdo horizontalmente */
     align-items: center; /* centralizar o conteúdo verticalmente */
-    flex-direction: row; /* definir a direção dos elementos como horizontal */
+    flex-direction: row; /* definir a direção dos elementos como horizontal */    
     
 }
 
@@ -50,6 +50,8 @@
     width: 100%;
     position:relative ;
     bottom: 0;
+    border-radius: 15px;
+    
 
 }
 

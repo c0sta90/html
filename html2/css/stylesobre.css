@@ -1,9 +1,11 @@
 #sobre {
     background-color: #f5f5f5;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #000;
+    padding: 10px; /* Decreased padding */
+    margin-top: 10px; /* Decreased margin-top */
+    border-radius: 5px; /* Decreased border-radius */
+    box-shadow: 0px 0px 5px #000; /* Decreased box-shadow */
+    width: 1400px; /* Adjusted width */
+    margin: 0 auto; /* centralizar a página */
 }
 
 #sobre h2 {

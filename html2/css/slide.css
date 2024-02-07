@@ -1,0 +1,22 @@
+body {
+    margin : 0; /* Remove margin */
+    padding : 0; /* Remove padding */
+    height: 100%; /* Set height to 100% */
+    width: 100%; /* Set width to 100% */
+    background: linear-gradient(72deg, #0050ac, 10%, #00d9ff73 90%); /* Set background to linear gradient */
+}
+
+.content{
+    height: 520px; /* Set height to 520px */
+    width: 935px; /* Set width to 100% */
+    border-radius: 20px; /* Set border-radius to 20px */
+    overflow: hidden; /* Set overflow to hidden */
+    position: absolute; /* Set position to absolute */
+    top: 65%; /* Set top to 20% */
+    left: 57%; /* Set left to 50% */
+    transform: translate(-65%, -50%); /* Set transform to translate - vai usar o seu proprio eixo para movimentar */
+}
+
+.navegador{
+position: absolute; /* Set position to absolute */
+}
