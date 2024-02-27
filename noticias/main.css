@@ -9,3 +9,8 @@
     display: inline-block;
     width: 68%;
 }
+
+.col-left img{
+    width: 100%;
+    height: auto;
+}
