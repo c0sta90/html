@@ -73,3 +73,21 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #4e4bfa;
 }
+.border-form{
+    background-color: rgba(129, 248, 105, 0.788);
+}
+
+#load{
+position: fixed; /* vai ajustar conforme a pagina */
+width: 350px; /* largura */
+height: 200px; /* altura */
+text-align: center; /* alinhamento ao centro */
+vertical-align: middle; /* Alinhamento Vertical */
+background: lightblue; /* cor de fundo */
+border: 1px solid black; /* bordas */
+font-size: 19px; /* tamanho da fonte */
+font-weight: bold; /* negrito */
+margin-left: 770px;
+margin-top: -700px;
+line-height: 200px;
+}
