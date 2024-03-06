@@ -9,7 +9,12 @@ $(document).ready(function(){
         $(this).toggleClass("border-form");
     });
     $("form").on("submit", function(event){
-        event.preventDefault(); /*evita fazer o default que é carregar a pagina*/
-    $("#load").show();
+        event.preventDefault(); /*NÃO DEIXA fazer o default que é carregar*/
+    $("#load").fadeIn(2000, function(){ //Callback
+        $(this).find("span").text("Enviado com sucesso")
+        $(this).find(".close").on("click", function(){
+        $(this).parent().fadeOut(500); //parent() = Isso seleciona o elemento selecionado
+    });
+    });
     })
 });
