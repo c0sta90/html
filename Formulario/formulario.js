@@ -16,5 +16,5 @@ $(document).ready(function(){
         $(this).parent().fadeOut(500); //parent() = Isso seleciona o elemento selecionado
     });
     });
-    })
+    });
 });
