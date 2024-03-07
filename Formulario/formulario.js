@@ -13,7 +13,7 @@ $(document).ready(function(){
     $("#load").fadeIn(2000, function(){ //Callback
         $(this).find("span").text("Enviado com sucesso")
         $(this).find(".close").on("click", function(){
-        $(this).parent().fadeOut(500); //parent() = Isso seleciona o elemento selecionado
+        $(this).parent().fadeOut(200); //parent() = Isso seleciona o elemento selecionado
     });
     });
     });
